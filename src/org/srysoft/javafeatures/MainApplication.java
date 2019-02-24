@@ -7,8 +7,8 @@ public class MainApplication {
 
 	public static void main(String[] args) {
 
-		String[] list1 = { "Apple", "Bat", "Cat", "Dog", "Elephant", "Fist", "Goat" };
-		List<String> alphabet = Arrays.asList(list1);
+		//String[] list1 = { "Apple", "Bat", "Cat", "Dog", "Elephant", "Fist", "Goat" };
+		//List<String> alphabet = Arrays.asList(list1);
 
 		//Program1 prog1 = new Program1();
 		//prog1.printWithFP(alphabet);
