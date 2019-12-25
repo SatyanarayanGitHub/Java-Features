@@ -7,7 +7,7 @@ public class Program2 {
 	public void printNumbers(List<Integer> numbers) {
 
 		numbers.stream().forEach(element -> System.out.println(element));
-	}
+	}	
 
 	public void sumNumbers(List<Integer> numbers) {
 
