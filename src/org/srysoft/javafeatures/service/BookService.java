@@ -1,4 +1,4 @@
-package org.srysoft.javafeatures.book;
+package org.srysoft.javafeatures.service;
 
 import java.util.List;
 
