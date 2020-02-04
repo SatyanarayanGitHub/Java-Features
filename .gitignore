@@ -6,13 +6,13 @@
 *.class
 
 ### STS ###
-.apt_generated
+#.apt_generated
 #.classpath
-.factorypath
+#.factorypath
 #.project
 #.settings
-.springBeans
-.sts4-cache
+#.springBeans
+#.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
