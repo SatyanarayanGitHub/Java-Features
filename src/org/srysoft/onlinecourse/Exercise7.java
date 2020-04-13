@@ -8,16 +8,25 @@ public class Exercise7 {
 
 		Exercise7 exe7 = new Exercise7();
 		exe7.squareAndSum();
+		exe7.cubeAndSum();
 
 	}
 
 	//Task 1: Square every number in a list and find the sum of squares	
 	private void squareAndSum() {
-		int[] number1 = { 4, 5, 6 };
+		int[] number = { 4, 5, 6 };
 
-		int reduce = Arrays.stream(number1).map(x -> x * x).reduce(0, Integer::sum);
+		int reduce = Arrays.stream(number).map(x -> x * x).reduce(0, Integer::sum);
 
-		System.out.println("square and sum  = " + reduce);
+		System.out.println("Square and sum  = " + reduce);
 	}
 
+	//Task 2: Cube every number in a list and find the sum of cubes	
+	private void cubeAndSum() {
+		int[] number = { 4, 5, 6 };
+
+		int reduce = Arrays.stream(number).map(x -> x * x * x).reduce(0, Integer::sum);
+
+		System.out.println("Cube and sum  = " + reduce);
+	}
 }
